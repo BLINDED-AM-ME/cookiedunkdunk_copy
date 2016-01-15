@@ -1,0 +1,7 @@
+Font ported to iPhone by www.iphoneruler.net
+
+The fonts ported by iPhoneRuler are their author's property and all the referenced trademarks are the property of their respective owners: please look at the license files in the font archives.
+If you are a font designer and you want to review the license terms or to claim a font, please contact us at info@iphoneruler.net
+
+v1.0 - iOs4 version
+v2.0 - iOS5 version

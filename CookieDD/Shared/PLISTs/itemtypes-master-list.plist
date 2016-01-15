@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>EMPTY_ITEM</string>
+	<string>CLEAR_BLOCK</string>
+	<string>COOKIE_RANDOM</string>
+	<string>COOKIE_RED</string>
+	<string>COOKIE_ORANGE</string>
+	<string>COOKIE_YELLOW</string>
+	<string>COOKIE_GREEN</string>
+	<string>COOKIE_BLUE</string>
+	<string>COOKIE_PURPLE</string>
+	<string>COOKIE_CHIP</string>
+	<string>INGREDIENT_RANDOM</string>
+	<string>INGREDIENT_EGG</string>
+	<string>INGREDIENT_SUGAR</string>
+	<string>INGREDIENT_CHIPS</string>
+	<string>INGREDIENT_BANANA</string>
+	<string>INGREDIENT_FLOUR</string>
+	<string>POWERUP_SUPER_RANDOM</string>
+	<string>POWERUP_SUPER_RED</string>
+	<string>POWERUP_SUPER_ORANGE</string>
+	<string>POWERUP_SUPER_YELLOW</string>
+	<string>POWERUP_SUPER_GREEN</string>
+	<string>POWERUP_SUPER_BLUE</string>
+	<string>POWERUP_SUPER_PURPLE</string>
+	<string>POWERUP_SUPER_CHIP</string>
+	<string>POWERUP_WRAPPED_RANDOM</string>
+	<string>POWERUP_WRAPPED_RED</string>
+	<string>POWERUP_WRAPPED_ORANGE</string>
+	<string>POWERUP_WRAPPED_YELLOW</string>
+	<string>POWERUP_WRAPPED_GREEN</string>
+	<string>POWERUP_WRAPPED_BLUE</string>
+	<string>POWERUP_WRAPPED_PURPLE</string>
+	<string>POWERUP_WRAPPED_CHIP</string>
+	<string>POWERUP_SMORE</string>
+	<string>BOOSTER_SLOTMACHINE</string>
+	<string>BOOSTER_RADSPRINKLE</string>
+	<string>BOOSTER_LIGHTNING</string>
+	<string>BOOSTER_NUKE</string>
+	<string>POWERUP_SUPERGLOVE</string>
+	<string>POWERUP_WRAPPER</string>
+	<string>BOOSTER_SPATULA</string>
+	<string>BLOCKER_ICECREAM</string>
+	<string>BLOCKER_COOKIEDOUGH</string>
+	<string>BLOCKER_PRETZEL</string>
+	<string>BOMB</string>
+</array>
+</plist>

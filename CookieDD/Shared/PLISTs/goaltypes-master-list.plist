@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>DEFAULT</string>
+	<string>INGREDIENTS</string>
+	<string>TOTAL_SCORE</string>
+	<string>STAR_COUNT</string>
+	<string>RISING_DOUGH</string>
+	<string>TYPE_CLEAR</string>
+</array>
+</plist>

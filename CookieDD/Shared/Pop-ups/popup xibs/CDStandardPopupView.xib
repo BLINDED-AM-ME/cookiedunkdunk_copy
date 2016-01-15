@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CDStandardPopupView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="W5v-V1-VNG">
+                    <rect key="frame" x="-140" y="-66" width="600" height="700"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xO9-8g-Mss">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="700"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="exitButtonHit:" destination="iN0-l3-epB" eventType="touchUpInside" id="bdW-eg-eeW"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" id="v86-ER-yan">
+                            <rect key="frame" x="171" y="186" width="258" height="327"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdd-hud-panel-popup.png" id="v5h-xL-xaM">
+                                    <rect key="frame" x="11" y="15" width="236" height="298"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <view contentMode="scaleToFill" id="RfT-xf-dnB" userLabel="MainGameHelpView_2">
+                                    <rect key="frame" x="20" y="26" width="218" height="276"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdd-hud-instpowerups.png" id="UeF-GB-QJ5">
+                                            <rect key="frame" x="23" y="77" width="172" height="162"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOW TO PLAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2Ac-DB-vu9" customClass="SGStrokeLabel">
+                                            <rect key="frame" x="0.0" y="-7" width="218" height="39"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Matching more than 3 cookies in different formats will result in powerups!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aXx-nQ-UKk">
+                                            <rect key="frame" x="0.0" y="29" width="218" height="58"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="v3I-60-OQf" userLabel="MainGameHelpView_3">
+                                    <rect key="frame" x="20" y="26" width="218" height="276"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdd-hud-instcombos.png" id="Km4-zI-ZoT">
+                                            <rect key="frame" x="9" y="92" width="200" height="116"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOW TO PLAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7G0-yp-Fg9" customClass="SGStrokeLabel">
+                                            <rect key="frame" x="0.0" y="-8" width="218" height="39"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Different powerup combinations can have different, even more powerful effects!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pdd-i5-f7u">
+                                            <rect key="frame" x="0.0" y="29" width="218" height="58"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Try it out and see!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WaD-fH-b1V">
+                                            <rect key="frame" x="21" y="208" width="177" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="oXh-Jq-3Ji" userLabel="CookieCookerHelpView_1">
+                                    <rect key="frame" x="20" y="26" width="218" height="276"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdd-hud-instcooker1.png" id="YR7-z7-LUk">
+                                            <rect key="frame" x="-2" y="88" width="222" height="160"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOW TO PLAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VuN-sy-BLD" customClass="SGStrokeLabel">
+                                            <rect key="frame" x="0.0" y="-8" width="218" height="39"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score points by moving baked cookies to the jar before they burn!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qBJ-wv-mJv">
+                                            <rect key="frame" x="0.0" y="29" width="218" height="58"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="CMZ-oC-nSb" userLabel="CookieCookerHelpView_2">
+                                    <rect key="frame" x="20" y="26" width="218" height="276"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdd-hud-instcooker2.png" id="FgB-gx-lRA">
+                                            <rect key="frame" x="0.0" y="81" width="218" height="174"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOW TO PLAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SKr-0K-Ciz" customClass="SGStrokeLabel">
+                                            <rect key="frame" x="0.0" y="-8" width="218" height="39"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If they burn, move them to the trash quickly so a new cookie can bake!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="m5Z-n8-LpK">
+                                            <rect key="frame" x="0.0" y="29" width="218" height="58"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="r9w-6Z-KpK" userLabel="CookieCookerHelpView_2">
+                                    <rect key="frame" x="20" y="26" width="218" height="276"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdd-hud-instcooker3.png" id="l1p-m6-dZw">
+                                            <rect key="frame" x="7" y="90" width="204" height="156"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOW TO PLAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PdS-Ri-BGM" customClass="SGStrokeLabel">
+                                            <rect key="frame" x="0.0" y="-8" width="218" height="39"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Putting a burnt cookie in the jar or a baked cookie in the trash, or dropping a cookie, will subtract points. Be careful!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mnL-JT-yUX">
+                                            <rect key="frame" x="1" y="20" width="216" height="85"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="PfH-bj-aeD" userLabel="CookieDropHelpView_1">
+                                    <rect key="frame" x="20" y="26" width="218" height="276"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdd-hud-instcookiedrop.png" id="MMT-rt-yOi">
+                                            <rect key="frame" x="8" y="67" width="202" height="202"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOW TO PLAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Gyt-m7-4MX" customClass="SGStrokeLabel">
+                                            <rect key="frame" x="0.0" y="-8" width="218" height="39"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Move the cup left and right across the screen. Catch the cookies to score points!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lwv-rx-uPy">
+                                            <rect key="frame" x="20" y="20" width="178" height="85"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="1YP-oF-P5O" userLabel="LeaderboardView">
+                                    <rect key="frame" x="20" y="26" width="218" height="276"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6rx-wa-UWk">
+                                            <rect key="frame" x="186" y="244" width="32" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                            <state key="normal" image="cdd-hud-btngamecenter2-default.png">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <state key="selected" image="cdd-hud-btngamecenter2-active.png"/>
+                                            <state key="highlighted" image="cdd-hud-btngamecenter2-active.png"/>
+                                            <connections>
+                                                <action selector="gameCenterButtonHit:" destination="iN0-l3-epB" eventType="touchUpInside" id="6tQ-43-QTp"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="OQo-4U-c7Z" userLabel="MainGameHelpView_1">
+                                    <rect key="frame" x="20" y="26" width="218" height="276"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdd-hud-instswipe.png" id="NNt-Ya-rpW">
+                                            <rect key="frame" x="13" y="96" width="193" height="84"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOW TO PLAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LVb-1E-GcI" customClass="SGStrokeLabel">
+                                            <rect key="frame" x="0.0" y="-8" width="218" height="39"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdd-hud-insthand01.png" id="EeP-e7-9rg">
+                                            <rect key="frame" x="53" y="164" width="112" height="92"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe cookies to swap them! Matching at least 3 of a kind will clear them!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cFb-ma-g5H">
+                                            <rect key="frame" x="0.0" y="29" width="218" height="58"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <view contentMode="scaleToFill" id="OYt-Gx-Z4x" userLabel="CowAbduction">
+                                    <rect key="frame" x="20" y="26" width="218" height="276"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOW TO PLAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="g0P-38-ghM" customClass="SGStrokeLabel">
+                                            <rect key="frame" x="0.0" y="-8" width="218" height="39"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdd_alienmini_instructions.png" id="vWT-fg-aAs">
+                                            <rect key="frame" x="3" y="64" width="212" height="192"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keep the cows out of the clutches of the evil Milk Monster!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VUp-gx-tMM">
+                                            <rect key="frame" x="3" y="20" width="213" height="45"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap and drag to move the cows away from the     UFO while avoiding obstacles!" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nDV-f6-5lO">
+                                            <rect key="frame" x="86" y="61" width="129" height="100"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wNY-CX-nkv">
+                                    <rect key="frame" x="22" y="268" width="75" height="33"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" backgroundImage="cdd-hud-sbarred-default.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" backgroundImage="cdd-hud-sbarred-active.png"/>
+                                    <state key="highlighted" backgroundImage="cdd-hud-sbarred-active.png"/>
+                                    <connections>
+                                        <action selector="backButtonHit:" destination="iN0-l3-epB" eventType="touchUpInside" id="ntR-KJ-YJm"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5YC-53-y1O" userLabel="ExitButton">
+                                    <rect key="frame" x="223" y="0.0" width="40" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <state key="normal" image="cdd-hud-btnx-default.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" image="cdd-hud-btnx-active.png"/>
+                                    <state key="highlighted" image="cdd-hud-btnx-active.png"/>
+                                    <connections>
+                                        <action selector="exitButtonHit:" destination="iN0-l3-epB" eventType="touchUpInside" id="Dcs-gE-NlT"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="SRL-32-C3m">
+                                    <rect key="frame" x="161" y="267" width="75" height="33"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" backgroundImage="cdd-hud-sbargreen-default.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" backgroundImage="cdd-hud-sbargreen-active.png"/>
+                                    <state key="highlighted" backgroundImage="cdd-hud-sbargreen-active.png"/>
+                                    <connections>
+                                        <action selector="nextButtonHit:" destination="iN0-l3-epB" eventType="touchUpInside" id="Qsq-WL-OTg"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CLOSE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xve-LE-XO0" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="22" y="268" width="75" height="33"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NEXT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zY4-Pe-nXC" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="161" y="267" width="75" height="33"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <outlet property="abductionMinigameDescription2Label" destination="nDV-f6-5lO" id="crJ-zl-Zfu"/>
+                <outlet property="abductionMinigameDescriptionLabel" destination="VUp-gx-tMM" id="8Na-1l-rfX"/>
+                <outlet property="abductionMinigameHelpScreenView" destination="OYt-Gx-Z4x" id="Tfm-BM-SH7"/>
+                <outlet property="abductionMinigameImage" destination="vWT-fg-aAs" id="OCm-Fp-piQ"/>
+                <outlet property="abductionMinigameSceenHowToPlay" destination="g0P-38-ghM" id="AQj-1P-oSX"/>
+                <outlet property="backButton" destination="wNY-CX-nkv" id="xPS-ut-ihE"/>
+                <outlet property="backTextLabel" destination="Xve-LE-XO0" id="aRB-oJ-RsT"/>
+                <outlet property="cookieCookerHelpScreen1Description" destination="qBJ-wv-mJv" id="9hA-sN-GnW"/>
+                <outlet property="cookieCookerHelpScreen1HowToPlay" destination="VuN-sy-BLD" id="8lN-YM-Fvf"/>
+                <outlet property="cookieCookerHelpScreen1Image" destination="YR7-z7-LUk" id="uUW-Fh-Mjx"/>
+                <outlet property="cookieCookerHelpScreen1View" destination="oXh-Jq-3Ji" id="fCZ-u1-fGZ"/>
+                <outlet property="cookieCookerHelpScreen2Description" destination="m5Z-n8-LpK" id="Ctg-8m-hnQ"/>
+                <outlet property="cookieCookerHelpScreen2HowToPlay" destination="SKr-0K-Ciz" id="ggc-1d-V2i"/>
+                <outlet property="cookieCookerHelpScreen2Image" destination="FgB-gx-lRA" id="qws-OJ-qmM"/>
+                <outlet property="cookieCookerHelpScreen2View" destination="CMZ-oC-nSb" id="P29-rE-UVm"/>
+                <outlet property="cookieCookerHelpScreen3Description" destination="mnL-JT-yUX" id="w6c-I7-Qfh"/>
+                <outlet property="cookieCookerHelpScreen3HowToPlay" destination="PdS-Ri-BGM" id="cad-NG-vBI"/>
+                <outlet property="cookieCookerHelpScreen3Image" destination="l1p-m6-dZw" id="crI-de-YiB"/>
+                <outlet property="cookieCookerHelpScreen3View" destination="r9w-6Z-KpK" id="c2c-zU-Kpq"/>
+                <outlet property="cookieDropHelpScreen1Description" destination="lwv-rx-uPy" id="yRs-25-KkJ"/>
+                <outlet property="cookieDropHelpScreen1HowToPlay" destination="Gyt-m7-4MX" id="Ioy-Ml-SdB"/>
+                <outlet property="cookieDropHelpScreen1Image" destination="MMT-rt-yOi" id="w6q-bS-nA6"/>
+                <outlet property="cookieDropHelpScreen1View" destination="PfH-bj-aeD" id="X6a-jY-9zp"/>
+                <outlet property="exitButton" destination="5YC-53-y1O" id="8AP-Ia-XPo"/>
+                <outlet property="fadeView" destination="W5v-V1-VNG" id="Sqn-F0-cCE"/>
+                <outlet property="gameCenterButton" destination="6rx-wa-UWk" id="p4z-CO-0ZC"/>
+                <outlet property="handPointerImage" destination="EeP-e7-9rg" id="em0-Yo-ZpI"/>
+                <outlet property="howToPlay3" destination="7G0-yp-Fg9" id="asr-DA-1bt"/>
+                <outlet property="howToPlayLabel" destination="LVb-1E-GcI" id="saZ-0j-gj5"/>
+                <outlet property="howToPlayText2" destination="2Ac-DB-vu9" id="UhH-xj-KFW"/>
+                <outlet property="leaderboardView" destination="1YP-oF-P5O" id="goT-gg-1gq"/>
+                <outlet property="mainGameHelpScreen1DescriptionLabel" destination="cFb-ma-g5H" id="2Vc-EB-oeX"/>
+                <outlet property="mainGameHelpScreen1View" destination="OQo-4U-c7Z" id="Kfa-b0-z6n"/>
+                <outlet property="mainGameHelpScreen2DescriptionLabel" destination="aXx-nQ-UKk" id="Khe-qq-fH2"/>
+                <outlet property="mainGameHelpScreen2View" destination="RfT-xf-dnB" id="Ipw-LF-hXy"/>
+                <outlet property="mainGameHelpScreen3DescriptionLabel" destination="pdd-i5-f7u" id="h1S-zs-aqf"/>
+                <outlet property="mainGameHelpScreen3View" destination="v3I-60-OQf" id="9u2-Il-cl0"/>
+                <outlet property="nextButton" destination="SRL-32-C3m" id="Ldn-f9-dc0"/>
+                <outlet property="nextTextLabel" destination="zY4-Pe-nXC" id="7ee-Sb-CDp"/>
+                <outlet property="tryItOutTextLabel" destination="WaD-fH-b1V" id="YAx-Ji-i7h"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="cdd-hud-btngamecenter2-active.png" width="33" height="32"/>
+        <image name="cdd-hud-btngamecenter2-default.png" width="33" height="32"/>
+        <image name="cdd-hud-btnx-active.png" width="24" height="24"/>
+        <image name="cdd-hud-btnx-default.png" width="24" height="24"/>
+        <image name="cdd-hud-instcombos.png" width="200" height="109"/>
+        <image name="cdd-hud-instcooker1.png" width="222" height="160"/>
+        <image name="cdd-hud-instcooker2.png" width="218" height="175"/>
+        <image name="cdd-hud-instcooker3.png" width="204" height="156"/>
+        <image name="cdd-hud-instcookiedrop.png" width="202" height="203"/>
+        <image name="cdd-hud-insthand01.png" width="113" height="92"/>
+        <image name="cdd-hud-instpowerups.png" width="173" height="163"/>
+        <image name="cdd-hud-instswipe.png" width="180" height="76"/>
+        <image name="cdd-hud-panel-popup.png" width="236" height="299"/>
+        <image name="cdd-hud-sbargreen-active.png" width="75" height="32"/>
+        <image name="cdd-hud-sbargreen-default.png" width="75" height="32"/>
+        <image name="cdd-hud-sbarred-active.png" width="73" height="33"/>
+        <image name="cdd-hud-sbarred-default.png" width="75" height="33"/>
+        <image name="cdd_alienmini_instructions.png" width="212" height="192"/>
+    </resources>
+</document>

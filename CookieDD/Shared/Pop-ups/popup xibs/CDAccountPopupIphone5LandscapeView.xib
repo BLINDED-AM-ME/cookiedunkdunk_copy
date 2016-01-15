@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="CDAccountPopupIphone5LandscapeView" id="WVD-h3-Sqp" customClass="CDAccountPopupView">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="ZKw-z2-29V">
+                    <rect key="frame" x="-66" y="-140" width="700" height="600"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="i2U-ee-lFX">
+                            <rect key="frame" x="0.0" y="0.0" width="700" height="600"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="exitButtonHit:" destination="WVD-h3-Sqp" eventType="touchUpInside" id="h8h-23-gN6"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="b0Y-wB-feM">
+                    <rect key="frame" x="52" y="12" width="464" height="297"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdd-hud-panel-account-h.png" id="vLM-VE-ty9" userLabel="backgroundImage">
+                            <rect key="frame" x="21" y="9" width="422" height="279"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2Ll-bl-Gme" userLabel="ExitButton">
+                            <rect key="frame" x="422" y="-2" width="40" height="40"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" image="cdd-hud-btnx-default.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="cdd-hud-btnx-active.png"/>
+                            <state key="highlighted" image="cdd-hud-btnx-active.png"/>
+                            <connections>
+                                <action selector="exitButtonHit:" destination="WVD-h3-Sqp" eventType="touchUpInside" id="vVX-du-6Ya"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vht-tA-yVa" userLabel="NextButton">
+                            <rect key="frame" x="30" y="112" width="102" height="41"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <state key="normal" backgroundImage="cdd-hud-panel-acctab-h-inactive.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="cdd-hud-panel-acctab-h-active.png"/>
+                            <state key="highlighted" backgroundImage="cdd-hud-panel-acctab-h-active.png"/>
+                            <connections>
+                                <action selector="accountButtonOneHit:" destination="WVD-h3-Sqp" eventType="touchUpInside" id="NbF-DZ-Lv3"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jG6-J2-hZZ" userLabel="NextButton">
+                            <rect key="frame" x="30" y="161" width="102" height="41"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <state key="normal" backgroundImage="cdd-hud-panel-acctab-h-inactive.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="cdd-hud-panel-acctab-h-active.png"/>
+                            <state key="highlighted" backgroundImage="cdd-hud-panel-acctab-h-active.png"/>
+                            <connections>
+                                <action selector="accountButtonTwoHit:" destination="WVD-h3-Sqp" eventType="touchUpInside" id="jt2-lB-sXD"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9Gt-lK-3vf" userLabel="NextButton">
+                            <rect key="frame" x="30" y="210" width="102" height="41"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <state key="normal" backgroundImage="cdd-hud-panel-acctab-h-inactive.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" backgroundImage="cdd-hud-panel-acctab-h-active.png"/>
+                            <state key="highlighted" backgroundImage="cdd-hud-panel-acctab-h-active.png"/>
+                            <connections>
+                                <action selector="accountButtonThreeHit:" destination="WVD-h3-Sqp" eventType="touchUpInside" id="Pl7-oI-mIK"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" id="Vrb-q5-JCc" userLabel="StatsView">
+                            <rect key="frame" x="135" y="20" width="281" height="257"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" YOUR TROPHIES:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vd3-qU-wxe" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="16" y="165" width="103" height="24"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Agv-6i-d1K">
+                                    <rect key="frame" x="9" y="196" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="cdd-hud-btnleftarrow-default.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" image="cdd-hud-btnleftarrow-active.png"/>
+                                    <state key="highlighted" image="cdd-hud-btnleftarrow-active.png"/>
+                                    <connections>
+                                        <action selector="trophyPreviousButtonHit:" destination="WVD-h3-Sqp" eventType="touchUpInside" id="iWe-H3-klY"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2ss-Q2-bIf">
+                                    <rect key="frame" x="250" y="196" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="cdd-hud-btnrightarrow-default.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" image="cdd-hud-btnrightarrow-active.png"/>
+                                    <state key="highlighted" image="cdd-hud-btnrightarrow-active.png"/>
+                                    <connections>
+                                        <action selector="trophyNextButtonHit:" destination="WVD-h3-Sqp" eventType="touchUpInside" id="P3r-w2-DLO"/>
+                                    </connections>
+                                </button>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdd-hud-panel-inset.png" id="oqm-43-ajB">
+                                    <rect key="frame" x="37" y="186" width="213" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Pwy-W2-fUI">
+                                    <rect key="frame" x="66" y="71" width="150" height="33"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" backgroundImage="cdd-hud-lbarorange-default.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled" backgroundImage="cdd-hud-lbarorange-active.png"/>
+                                    <state key="selected" backgroundImage="cdd-hud-lbarorange-active.png"/>
+                                    <state key="highlighted" backgroundImage="cdd-hud-lbarorange-active.png"/>
+                                    <connections>
+                                        <action selector="friendLeaderboardButtonHit:" destination="WVD-h3-Sqp" eventType="touchUpInside" id="hEK-zd-Mo3"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FRIEND LEADERBOARDS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LHf-Uj-yvS" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="66" y="71" width="150" height="33"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CQv-T1-drH">
+                                    <rect key="frame" x="65" y="121" width="150" height="33"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" backgroundImage="cdd-hud-lbarorange-default.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled" backgroundImage="cdd-hud-lbarorange-active.png"/>
+                                    <state key="selected" backgroundImage="cdd-hud-lbarorange-active.png"/>
+                                    <state key="highlighted" backgroundImage="cdd-hud-lbarorange-active.png"/>
+                                    <connections>
+                                        <action selector="globalLeaderBoardButtonHit:" destination="WVD-h3-Sqp" eventType="touchUpInside" id="b6p-M8-sRv"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GLOBAL LEADERBOARDS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Aa8-JE-dyA" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="66" y="121" width="150" height="33"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="none" id="w7N-9d-h7T">
+                                    <rect key="frame" x="56" y="186" width="175" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="9Gb-8r-ISE">
+                                        <size key="itemSize" width="35" height="35"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                    <cells/>
+                                    <connections>
+                                        <outlet property="dataSource" destination="WVD-h3-Sqp" id="FKj-s8-Lp2"/>
+                                        <outlet property="delegate" destination="WVD-h3-Sqp" id="KYn-xC-tuD"/>
+                                    </connections>
+                                </collectionView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="cdd-hud-comingsoonbanner.png" id="rvj-OF-h6j">
+                                    <rect key="frame" x="67" y="119" width="157" height="37"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="cdd-hud-comingsoonbanner.png" id="faE-28-ZB7">
+                                    <rect key="frame" x="65" y="69" width="157" height="37"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="nsd-lf-nYJ">
+                            <rect key="frame" x="25" y="4" width="413" height="290"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="cdd-hud-panel-inset.png" id="hcU-Yv-6Ix">
+                                    <rect key="frame" x="117" y="177" width="181" height="41"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="none" id="Bq8-r7-LAK">
+                                    <rect key="frame" x="128" y="175" width="159" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="1q0-ks-Bx5">
+                                        <size key="itemSize" width="50" height="50"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                    <cells/>
+                                    <connections>
+                                        <outlet property="dataSource" destination="WVD-h3-Sqp" id="LEA-H3-0bN"/>
+                                        <outlet property="delegate" destination="WVD-h3-Sqp" id="SAi-gV-FgG"/>
+                                    </connections>
+                                </collectionView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Bn0-GN-xox" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="106" y="108" width="201" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="zg5-HK-Y2p">
+                                    <rect key="frame" x="176" y="33" width="60" height="60"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sWh-Qy-MaI">
+                                    <rect key="frame" x="87" y="183" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="cdd-hud-btnleftarrow-default.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" image="cdd-hud-btnleftarrow-active.png"/>
+                                    <state key="highlighted" image="cdd-hud-btnleftarrow-active.png"/>
+                                    <connections>
+                                        <action selector="costumePreviousButtonHit:" destination="WVD-h3-Sqp" eventType="touchUpInside" id="IHf-Nn-zJ6"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="0hn-xl-bjX">
+                                    <rect key="frame" x="296" y="183" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="cdd-hud-btnrightarrow-default.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" image="cdd-hud-btnrightarrow-active.png"/>
+                                    <state key="highlighted" image="cdd-hud-btnrightarrow-active.png"/>
+                                    <connections>
+                                        <action selector="costumeNextButtonHit:" destination="WVD-h3-Sqp" eventType="touchUpInside" id="g3s-vW-poY"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wQp-zc-hVr">
+                                    <rect key="frame" x="20" y="20" width="75" height="33"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" backgroundImage="cdd-hud-sbarred-default.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" backgroundImage="cdd-hud-sbarred-active.png"/>
+                                    <state key="highlighted" backgroundImage="cdd-hud-sbarred-active.png"/>
+                                    <connections>
+                                        <action selector="exitCookieCostumeDetailView:" destination="WVD-h3-Sqp" eventType="touchUpInside" id="6ob-2R-Lw8"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Your Super Cookie!!!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mbr-MY-Iiw" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="118" y="153" width="201" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BACK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HbG-fB-aTd" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="20" y="20" width="75" height="33"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="76g-aP-Hu3" userLabel="PlayerAccountView">
+                            <rect key="frame" x="135" y="20" width="281" height="257"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OgU-eP-gEm">
+                                    <rect key="frame" x="103" y="97" width="150" height="32"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" backgroundImage="cdd-hud-lbargoogle-default.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" backgroundImage="cdd-hud-lbargoogle-active.png"/>
+                                    <state key="highlighted" backgroundImage="cdd-hud-lbargoogle-active.png"/>
+                                    <connections>
+                                        <action selector="googleButtonHit:" destination="WVD-h3-Sqp" eventType="touchUpInside" id="4RC-OH-zo3"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="h76-u1-jbu">
+                                    <rect key="frame" x="103" y="174" width="150" height="32"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" backgroundImage="cdd-hud-lbarfacebook-default.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" backgroundImage="cdd-hud-lbarfacebook-active.png"/>
+                                    <state key="highlighted" backgroundImage="cdd-hud-lbarfacebook-active.png"/>
+                                    <connections>
+                                        <action selector="facebookButtonHit:" destination="WVD-h3-Sqp" eventType="touchUpInside" id="6cg-xP-JOJ"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="s3u-5R-4X1">
+                                    <rect key="frame" x="103" y="114" width="150" height="32"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" backgroundImage="cdd-hud-lbartwitter-default.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" backgroundImage="cdd-hud-lbartwitter-active.png"/>
+                                    <state key="highlighted" backgroundImage="cdd-hud-lbartwitter-active.png"/>
+                                    <connections>
+                                        <action selector="twitterButtonHit:" destination="WVD-h3-Sqp" eventType="touchUpInside" id="qe8-54-cYD"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" CONNECT TO GOOGLE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nsy-V2-sJS" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="136" y="97" width="117" height="32"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" CONNECT TO TWITTER" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MBQ-ck-ddb" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="136" y="112" width="117" height="32"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" CONNECT TO FACEBOOK" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eEr-OY-7Df" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="136" y="172" width="117" height="32"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAYER NAME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SZ2-iI-HOM" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="116" y="20" width="118" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLANET / LEVEL #" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mhC-ZQ-RUB" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="103" y="39" width="145" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="center" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HWN-PN-J3l">
+                                    <rect key="frame" x="227" y="15" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="cdd-hud-btnitemadd-default.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="eMi-xj-Nge" userLabel="InventoryView">
+                            <rect key="frame" x="135" y="20" width="281" height="257"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" COINS:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YwR-Ee-QbG" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="122" y="19" width="43" height="24"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" YOUR COSTUMES:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Lz2-tt-D0J" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="32" y="103" width="105" height="24"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" YOUR POWERUPS:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NKB-Tw-7cj" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="32" y="172" width="106" height="24"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nsz-Ua-8r1" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="163" y="20" width="39" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="BSW-ZR-cnJ">
+                                    <rect key="frame" x="210" y="15" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="cdd-hud-btnitemadd-default.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" GEMS:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tog-1K-ha0" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="122" y="51" width="43" height="24"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="M8I-Ay-WNZ" customClass="SGStrokeLabel">
+                                    <rect key="frame" x="163" y="53" width="39" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xIi-vG-twZ">
+                                    <rect key="frame" x="210" y="47" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="cdd-hud-btnitemadd-default.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="center" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="d0V-VB-qLW">
+                                    <rect key="frame" x="9" y="135" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="cdd-hud-btnleftarrow-default.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled" image="cdd-hud-btnleftarrow-active.png"/>
+                                    <state key="selected" image="cdd-hud-btnleftarrow-active.png"/>
+                                    <state key="highlighted" image="cdd-hud-btnleftarrow-active.png"/>
+                                </button>
+                                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="K4b-Ua-Upo">
+                                    <rect key="frame" x="9" y="203" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="cdd-hud-btnleftarrow-default.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" image="cdd-hud-btnleftarrow-active.png"/>
+                                    <state key="highlighted" image="cdd-hud-btnleftarrow-active.png"/>
+                                </button>
+                                <button opaque="NO" contentMode="center" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VXu-lh-tMv">
+                                    <rect key="frame" x="250" y="135" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="cdd-hud-btnrightarrow-default.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled" image="cdd-hud-btnrightarrow-active.png"/>
+                                    <state key="selected" image="cdd-hud-btnrightarrow-active.png"/>
+                                    <state key="highlighted" image="cdd-hud-btnrightarrow-active.png"/>
+                                </button>
+                                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DHK-AO-XMx">
+                                    <rect key="frame" x="250" y="203" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="cdd-hud-btnrightarrow-default.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" image="cdd-hud-btnrightarrow-active.png"/>
+                                    <state key="highlighted" image="cdd-hud-btnrightarrow-active.png"/>
+                                </button>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdd-hud-panel-inset.png" id="Qrx-Sz-EP0">
+                                    <rect key="frame" x="37" y="125" width="213" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdd-hud-panel-inset.png" id="Tkf-W6-mSM">
+                                    <rect key="frame" x="37" y="193" width="213" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="none" id="tP4-rs-K8u">
+                                    <rect key="frame" x="56" y="125" width="175" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aAb-fF-Apa">
+                                        <size key="itemSize" width="35" height="35"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                    <cells/>
+                                    <connections>
+                                        <outlet property="dataSource" destination="WVD-h3-Sqp" id="HNO-Su-pSN"/>
+                                        <outlet property="delegate" destination="WVD-h3-Sqp" id="VnZ-so-dXZ"/>
+                                    </connections>
+                                </collectionView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="cdd-hud-comingsoonbanner.png" id="AHM-Zi-KZZ">
+                                    <rect key="frame" x="62" y="131" width="157" height="37"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="none" id="IVd-Pv-nVb">
+                                    <rect key="frame" x="56" y="193" width="175" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="q0L-NO-Qsx">
+                                        <size key="itemSize" width="35" height="35"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                    <cells/>
+                                    <connections>
+                                        <outlet property="dataSource" destination="WVD-h3-Sqp" id="7xx-5k-NoF"/>
+                                        <outlet property="delegate" destination="WVD-h3-Sqp" id="p8v-3y-gum"/>
+                                    </connections>
+                                </collectionView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdd-hud-ico-milksplash.png" id="L7I-gu-CM2">
+                            <rect key="frame" x="80" y="40" width="113" height="64"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="EF9-Gc-nLy">
+                            <rect key="frame" x="30" y="20" width="83" height="83"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdd-hud-ico-playerphoto.png" id="7h6-dV-dEQ">
+                            <rect key="frame" x="30" y="20" width="83" height="83"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAYER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DYb-j5-zwa" customClass="SGStrokeLabel">
+                            <rect key="frame" x="30" y="112" width="102" height="41"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INVENTORY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="exh-NM-B8x" customClass="SGStrokeLabel">
+                            <rect key="frame" x="30" y="161" width="102" height="41"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STATS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Zsy-uK-aws" customClass="SGStrokeLabel">
+                            <rect key="frame" x="30" y="210" width="102" height="41"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdd-hud-stats-stars.png" id="2li-z1-3TA">
+                    <rect key="frame" x="438" y="272" width="116" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <outlet property="accountButtonOne" destination="vht-tA-yVa" id="o5u-KS-Miy"/>
+                <outlet property="accountButtonThree" destination="9Gt-lK-3vf" id="D7v-E7-rpy"/>
+                <outlet property="accountButtonTwo" destination="jG6-J2-hZZ" id="XiM-rn-U4i"/>
+                <outlet property="coinCountLabel" destination="Nsz-Ua-8r1" id="xDX-N8-Rdy"/>
+                <outlet property="coinsTextLabel" destination="YwR-Ee-QbG" id="iG7-Jk-5Kp"/>
+                <outlet property="cookieCostumeDetailBackButton" destination="wQp-zc-hVr" id="sMW-J1-Neo"/>
+                <outlet property="cookieCostumeDetailCollectionView" destination="Bq8-r7-LAK" id="8ic-Qd-BHh"/>
+                <outlet property="cookieCostumeDetailView" destination="nsd-lf-nYJ" id="LuG-O0-4LG"/>
+                <outlet property="cookieNameLabel" destination="Bn0-GN-xox" id="Amt-MF-ZIh"/>
+                <outlet property="costumeDetailBackLabel" destination="HbG-fB-aTd" id="R7W-dl-TPr"/>
+                <outlet property="costumeNextButton" destination="0hn-xl-bjX" id="F9D-vj-WeZ"/>
+                <outlet property="costumePreviousButton" destination="sWh-Qy-MaI" id="UIB-zp-63Q"/>
+                <outlet property="costumeTextLabel" destination="Lz2-tt-D0J" id="qZu-qb-mdH"/>
+                <outlet property="costumesCollectionView" destination="tP4-rs-K8u" id="gw1-Wn-Dtq"/>
+                <outlet property="exitButton" destination="2Ll-bl-Gme" id="n47-eS-jGW"/>
+                <outlet property="facebookButton" destination="h76-u1-jbu" id="gmB-Lp-enD"/>
+                <outlet property="facebookLabel" destination="eEr-OY-7Df" id="65B-7q-62x"/>
+                <outlet property="fadeView" destination="ZKw-z2-29V" id="5CA-zc-hNM"/>
+                <outlet property="friendLeaderboardButton" destination="Pwy-W2-fUI" id="4Bx-kZ-UBL"/>
+                <outlet property="friendLeaderboardTextLabel" destination="LHf-Uj-yvS" id="IMd-K0-Zll"/>
+                <outlet property="gemAddButton" destination="xIi-vG-twZ" id="bwH-ne-Lzi"/>
+                <outlet property="gemCountLabel" destination="M8I-Ay-WNZ" id="yPv-dk-p7q"/>
+                <outlet property="gemTextLabel" destination="tog-1K-ha0" id="cDK-HU-20D"/>
+                <outlet property="globalLeaderBoardButton" destination="CQv-T1-drH" id="kmr-Uh-wKn"/>
+                <outlet property="globalLeaderboardTextLabel" destination="Aa8-JE-dyA" id="0sO-zT-pki"/>
+                <outlet property="googleButton" destination="OgU-eP-gEm" id="zOW-E8-32i"/>
+                <outlet property="googleLabel" destination="Nsy-V2-sJS" id="41f-x1-YmY"/>
+                <outlet property="inventoryTextLabel" destination="exh-NM-B8x" id="EQ0-GJ-1Lz"/>
+                <outlet property="inventoryView" destination="eMi-xj-Nge" id="NoS-lp-fJY"/>
+                <outlet property="planetAndLevelLabel" destination="mhC-ZQ-RUB" id="FRk-rX-hPD"/>
+                <outlet property="playerAccountView" destination="76g-aP-Hu3" id="Una-Sj-Vqz"/>
+                <outlet property="playerNameLabel" destination="SZ2-iI-HOM" id="9At-AA-pDm"/>
+                <outlet property="playerTextLabel" destination="DYb-j5-zwa" id="98q-2C-ZEl"/>
+                <outlet property="powerupCollectionView" destination="IVd-Pv-nVb" id="FZx-Sn-BKu"/>
+                <outlet property="powerupTextLabel" destination="NKB-Tw-7cj" id="Amy-p0-1ht"/>
+                <outlet property="profileImage" destination="EF9-Gc-nLy" id="VQe-0T-Zt5"/>
+                <outlet property="selectCookieTitleLabel" destination="Mbr-MY-Iiw" id="17O-ed-9zS"/>
+                <outlet property="splashRight" destination="L7I-gu-CM2" id="JFb-Sj-SyI"/>
+                <outlet property="starCountImage" destination="2li-z1-3TA" id="j41-In-cwA"/>
+                <outlet property="statsTextLabel" destination="Zsy-uK-aws" id="HvC-A4-99o"/>
+                <outlet property="statsView" destination="Vrb-q5-JCc" id="gr1-Wo-o6L"/>
+                <outlet property="trophiesCollectionView" destination="w7N-9d-h7T" id="BLl-WK-7y3"/>
+                <outlet property="trophyNextButton" destination="2ss-Q2-bIf" id="iSg-f2-Cbg"/>
+                <outlet property="trophyPreviousButton" destination="Agv-6i-d1K" id="Zsh-so-zqM"/>
+                <outlet property="trophyTextLabel" destination="Vd3-qU-wxe" id="Mp6-mC-Nr7"/>
+                <outlet property="twitterButton" destination="s3u-5R-4X1" id="AHR-pE-Gtg"/>
+                <outlet property="twitterLabel" destination="MBQ-ck-ddb" id="ldR-SN-ijt"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="cdd-hud-btnitemadd-default.png" width="21" height="21"/>
+        <image name="cdd-hud-btnleftarrow-active.png" width="24" height="24"/>
+        <image name="cdd-hud-btnleftarrow-default.png" width="24" height="24"/>
+        <image name="cdd-hud-btnrightarrow-active.png" width="24" height="24"/>
+        <image name="cdd-hud-btnrightarrow-default.png" width="24" height="24"/>
+        <image name="cdd-hud-btnx-active.png" width="24" height="24"/>
+        <image name="cdd-hud-btnx-default.png" width="24" height="24"/>
+        <image name="cdd-hud-comingsoonbanner.png" width="157" height="37"/>
+        <image name="cdd-hud-ico-milksplash.png" width="113" height="64"/>
+        <image name="cdd-hud-ico-playerphoto.png" width="83" height="83"/>
+        <image name="cdd-hud-lbarfacebook-active.png" width="151" height="32"/>
+        <image name="cdd-hud-lbarfacebook-default.png" width="151" height="32"/>
+        <image name="cdd-hud-lbargoogle-active.png" width="151" height="32"/>
+        <image name="cdd-hud-lbargoogle-default.png" width="151" height="32"/>
+        <image name="cdd-hud-lbarorange-active.png" width="151" height="33"/>
+        <image name="cdd-hud-lbarorange-default.png" width="150" height="33"/>
+        <image name="cdd-hud-lbartwitter-active.png" width="151" height="33"/>
+        <image name="cdd-hud-lbartwitter-default.png" width="151" height="33"/>
+        <image name="cdd-hud-panel-account-h.png" width="422" height="279"/>
+        <image name="cdd-hud-panel-acctab-h-active.png" width="102" height="41"/>
+        <image name="cdd-hud-panel-acctab-h-inactive.png" width="102" height="41"/>
+        <image name="cdd-hud-panel-inset.png" width="181" height="41"/>
+        <image name="cdd-hud-sbarred-active.png" width="73" height="33"/>
+        <image name="cdd-hud-sbarred-default.png" width="75" height="33"/>
+        <image name="cdd-hud-stats-stars.png" width="116" height="45"/>
+    </resources>
+</document>

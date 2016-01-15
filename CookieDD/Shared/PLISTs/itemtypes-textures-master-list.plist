@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string></string>
+	<string>clear-block</string>
+	<string></string>
+	<string>cookie-red</string>
+	<string>cookie-orange</string>
+	<string>cookie-yellow</string>
+	<string>cookie-green</string>
+	<string>cookie-blue</string>
+	<string>cookie-purple</string>
+	<string>cookie-chip</string>
+	<string></string>
+	<string>ingredient-egg</string>
+	<string>ingredient-sugar</string>
+	<string>ingredient-chips</string>
+	<string>ingredient-banana</string>
+	<string>ingredient-flour</string>
+	<string></string>
+	<string>super-red</string>
+	<string>super-orange</string>
+	<string>super-yellow</string>
+	<string>super-green</string>
+	<string>super-blue</string>
+	<string>super-purple</string>
+	<string>super-chip</string>
+	<string></string>
+	<string>wrapped-red</string>
+	<string>wrapped-orange</string>
+	<string>wrapped-yellow</string>
+	<string>wrapped-green</string>
+	<string>wrapped-blue</string>
+	<string>wrapped-purple</string>
+	<string>wrapped-chip</string>
+	<string>powerup-smore</string>
+	<string>booster-slotmachine</string>
+	<string>booster-radsprinkle</string>
+	<string>booster-lightning</string>
+	<string>booster-nuke</string>
+	<string>powerup-superglove</string>
+	<string>powerup-wrapper</string>
+	<string>booster-spatula</string>
+</array>
+</plist>

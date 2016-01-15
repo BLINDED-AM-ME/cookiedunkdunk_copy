@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ED9FC2C9-7D69-4306-97CB-64F3D08D5758</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CookieDD</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>67C02E8E8DC1492D71B3D96B2A09B42AC2A2FD58</key>
+		<string>https://github.com/BLINDED-AM-ME/cookiedunkdunk.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CookieDD.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>67C02E8E8DC1492D71B3D96B2A09B42AC2A2FD58</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BLINDED-AM-ME/cookiedunkdunk.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>67C02E8E8DC1492D71B3D96B2A09B42AC2A2FD58</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>67C02E8E8DC1492D71B3D96B2A09B42AC2A2FD58</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cookiedunkdunk</string>
+		</dict>
+	</array>
+</dict>
+</plist>
